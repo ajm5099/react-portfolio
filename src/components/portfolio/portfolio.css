@@ -1,0 +1,32 @@
+.portfolio-box {
+    margin-left: 2vw;
+    margin-top: 2vw;
+    margin-bottom: 12vh;
+    width: 60vw;
+    color: black;
+    background-color: rgb(206, 206, 206);
+}
+
+.line {
+    border-bottom: 2px solid darkgrey;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.portfolio-image {
+    margin: 2vw;
+}
+
+.button-container {
+    padding: 4vh;
+}
+
+.portfolio-link-btn {
+    margin: 0;
+    margin-top: 4vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}

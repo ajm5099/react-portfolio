@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import './homepage.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class Homepage extends Component {
     constructor() {

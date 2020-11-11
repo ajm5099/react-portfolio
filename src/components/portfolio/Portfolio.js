@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import './portfolio.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class Portfolio extends Component {
     constructor() {
