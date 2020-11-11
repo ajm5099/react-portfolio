@@ -1,6 +1,12 @@
 import React, { Component } from "react";
 import './portfolio.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import whaleHunter from './whale-hunter.png';
+import burgerBar from './burger_bar.png';
+import venu from './venu-profile-img.png';
+import weatherDashboard from './weather-dashboard.png';
+import dayScheduler from './day-scheduler.png';
+
 
 class Portfolio extends Component {
     constructor() {
@@ -26,7 +32,7 @@ class Portfolio extends Component {
                             <h3>Whale Hunter</h3>
                         </div>
                         <div className="col-sm-12 col-md-6 col-lg-4">
-                            <img className="portfolio-image img-fluid" src="images/whale-hunter.png" alt="whale-hunter-profile-img" />
+                            <img className="portfolio-image img-fluid" src={whaleHunter} alt="whale-hunter-profile-img" />
                         </div>
                         <div className="col-sm-12 col-md-6 col-lg-8">
                             <p>Whale Hunter is a beer tracking, search engine and social media app that is built to be your go to for beer discovery. Browse our app and explore new beers to taste while learning more about new beers and the breweries that made them. Save those beers to a "six pack" for referencing later. Share your experiences with your friends and strangers by posting about your experience, sharing your created six packs, and by rating beer by using our innovative Ahab scale.</p>
@@ -61,7 +67,7 @@ class Portfolio extends Component {
                                 <h3>Burger Bar</h3>
                             </div>
                             <div className="col-sm-12 col-md-6 col-lg-4">
-                                <img className="portfolio-image img-fluid" src="images/burger_bar.png" alt="burger-bar-profile-img" />
+                                <img className="portfolio-image img-fluid" src={burgerBar} alt="burger-bar-profile-img" />
                             </div>
                             <div className="col-sm-12 col-md-6 col-lg-8">
                                 <p>The burger bar is a web application that shows off gourmet burgers you can order, and then devour the burgers when they are ready! Dont see a burger you like? You can add a new burger and have it made for you to be devoured! Burger bar uses a MYSQL database to store the burgers, and utilizes handlebars, node, express, and javascript to build the application.</p>
@@ -92,7 +98,7 @@ class Portfolio extends Component {
                                     <h3>Group Project: Venu</h3>
                                 </div>
                                 <div className="col-sm-12 col-md-6 col-lg-4">
-                                    <img className="portfolio-image img-fluid" src="images/venu-profile-img.png" alt="venu-profile-img" />
+                                    <img className="portfolio-image img-fluid" src={venu} alt="venu-profile-img" />
                                 </div>
                                 <div className="col-sm-12 col-md-6 col-lg-8">
                                     <p>VenU is a music-discovery website for fans of live music, for fans to discover new artists and shows. The search functionality allows you to search for a band and retrieve a performance by said band for the user to enjoy. There is also currently live broadcasts for the user to browse. In addition as a starting point there are several genres for a new user to experience what certain genres have to offer in musical styling and feeling. The videos displayed on site are populated with information about the bands provided by the AudioDB API when available.</p>
@@ -121,7 +127,7 @@ class Portfolio extends Component {
                                     <h3>Weather Dashboard</h3>
                                 </div>
                                 <div className="col-sm-12 col-md-6 col-lg-4">
-                                    <img className="portfolio-image img-fluid" src="images/weather-dashboard.png" alt="weather-profile-img" />
+                                    <img className="portfolio-image img-fluid" src={weatherDashboard} alt="weather-profile-img" />
                                 </div>
                                 <div className="col-sm-12 col-md-6 col-lg-8">
                                     <p>The weather dashboard is a place users can go to view the current weather, and 5 day extended forecast for any city they search for. The program will also save cities the user searched for in a list, for quick recall. The project makes extensive use of the open weather API for its data source, and uses AJAX requests to pull in up to date weather data.</p>
@@ -150,7 +156,7 @@ class Portfolio extends Component {
                                     <h3>Day planner</h3>
                                 </div>
                                 <div className="col-sm-12 col-md-6 col-lg-4">
-                                    <img className="portfolio-image img-fluid" src="images/day-scheduler.png" alt="day-profile-img" />
+                                    <img className="portfolio-image img-fluid" src={dayScheduler} alt="day-profile-img" />
                                 </div>
                                 <div className="col-sm-12 col-md-6 col-lg-8">
                                     <p>The day planner is a lightweight javascript program that allows a user to plan their day. The application will accept and save inputs for each one hour time block, retaining them even after the browser is closed so suers can return to the page later and not lose any information. The application makes use of moment.js t oget the current time, and style each time row according to if its in the past, is the current time, or is in the future.</p>
