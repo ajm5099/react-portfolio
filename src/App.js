@@ -10,35 +10,9 @@ import Header from "./components/header/Header"
 import Footer from "./components/footer/Footer"
 
 class App extends Component {
-  // constructor() {
-  //   super();
-  //   this.state = {
-  //     name: "React",
-  //     showHideHomepage: false,
-  //     showHidePortfolio: false,
-  //     showHideContact: false
-  //   };
-  //   this.hideComponent = this.hideComponent.bind(this);
-  // }
 
-  // hideComponent(name) {
-  //   console.log(name);
-  //   switch (name) {
-  //     case "showHideHomepage":
-  //       this.setState({ showHideHomepage: !this.state.showHideHomepage });
-  //       break;
-  //     case "showHidePortfolio":
-  //       this.setState({ showHidePortfolio: !this.state.showHidePortfolio })
-  //       break;
-  //     case "showHideContact":
-  //       this.setState({ showHideContact: !this.state.showHideContact })
-  //       break;
-  //       default:
-  //   }
-  // }
 
   render() {
-    // const { showHideHomepage, showHidePortfolio, showHideContact } = this.state;
     return (
       <div>
           <BrowserRouter>
@@ -51,14 +25,7 @@ class App extends Component {
           </Switch>
           <Footer />
           </BrowserRouter>
-      {/* <div>
-        <button onClick={() => this.hideComponent("showHideHomepage")}>Homepage</button>
-        <button onClick={() => this.hideComponent("showHidePortfolio")}>Portfolio</button>
-        <button onClick={() => this.hideComponent("showHideContact")}>Contact</button>
-      </div>
-      {showHideHomepage && <Homepage />}
-      {showHidePortfolio && <Portfolio />}
-      {showHideContact && <Contact />} */}
+
       
     </div>
     )
